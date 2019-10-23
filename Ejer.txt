@@ -1,0 +1,9 @@
+
+1- Cada 60s se debe generar un numero entre 1 y 200
+2- Con ese numero generado deberia pegarle al siguiente endpoint
+https://rapidapi.com/apilayernet/api/rest-countries-v1?endpoint=53aa5a09e4b0f2c975470d6a
+3- Del request obtener la longitud y latitud del pais que recibiste en el response
+4- Hacer un request al siguiente endpoint
+https://rapidapi.com/theapiguy/api/national-weather-service?endpoint=apiendpoint_230770d1-8fe5-4bc6-9d85-64bf8c63b916
+5- Si el anterior request tarda mas de 1 segundo, hacer el request al siguiente endpoint
+https://rapidapi.com/weatherbit/api/weather
